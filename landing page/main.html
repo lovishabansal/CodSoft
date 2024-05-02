@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Med Map</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+    <div id="root"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+<script src="main.js"></script>
+
+</head>
+<body>
+    
+<header class="header">
+    <a href="#" class="logo"> <i class="fas fa-heartbeat"></i>Medmap</a>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#book">Appointments</a>
+        <a href="#review">Review</a>
+        <a href="#blogs">Blogs</a>
+       
+    </nav>
+    <div id="menu-btn" class="fas fa-bars"></div>
+</header>
+<section class="home" id="home">
+<div class="image">
+    <img src="first.jpeg" alt="pic">
+    <div class="content">
+        <h3>Stay Safe,
+          <br>Stay Healthy</h3>
+          <div class="text">Your journey to wellness begins here. Explore our website to discover a range of healthcare services, from routine check-ups to specialized treatments. We are your partner in achieving and maintaining optimal health. Your health is our priority, and we are honored to be the beacon guiding you towards a healthier, happier life.</div>
+<a href="#contactinfo" class="btn"><span class="fa-solid fa-phone"></span>   Contact Us</a>
+    </div>
+   
+</div>
+</section>
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-user-md"></i>
+        <h3>140+</h3>
+        <p>Doctors at work</p>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-users"></i>
+        <h3>1040+</h3>
+        <p>Satisfied patients</p>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-procedures"></i>
+        <h3>500+</h3>
+        <p>Bed facility</p>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-hospital"></i>
+        <h3>80+</h3>
+        <p>Available hospitals</p>
+    </div>
+
+</section>
+
+
+
+<section class="services" id="services">
+    <div class="heading">our <span>services</span></div>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-notes-medical"></i>
+            <h3>Free Checkups</h3>
+            <p>Promoting free checkups  is a great way to encourage community health and well-being Our free checkups provide a thorough assessment of your overall health. From basic vital signs to specialized screenings, our experienced healthcare professionals will ensure a comprehensive evaluation.</p>
+            <a href="https://spshospitals.com/free-health-checkup/"target="_blank" class="btn">learn more <span class="fas fa-chavron-right"></span></a>
+        </div>
+        <div class="box">
+            <i class="fas fa-ambulance"></i>
+            <h3>24/7 Ambulance </h3>
+            <p>Your health and safety are our top priorities. We understand that emergencies can happen at any time, which is why we are proud to offer 24/7 ambulance services. Our dedicated ambulance team is ready around the clock to provide swift and professional medical assistance whenever you need it.</p>
+            <a href="https://aarvyhealthcare.com/ambulance-service" target="_blank" class="btn">learn more <span class="fas fa-chavron-right"></span></a>
+        </div>
+        <div class="box">
+            <i class="fas fa-user-md" ></i>
+            <h3>Expert Doctors</h3>
+            <p>We take pride in assembling a team of distinguished and expert doctors committed to providing the highest level of healthcare. Our medical professionals are not just practitioners; they are pioneers in their respective fields, bringing a wealth of experience, skill, and compassion to every patient interaction</p>
+            <a href="#doctors"class="btn">learn more <span class="fas fa-chavron-right"></span></a>
+        </div>
+        <div class="box">
+            <i class="fas fa-pills"></i>
+            <h3>Medicines </h3>
+            <p>We understand the importance of timely and accurate medication in the healing process. Our commitment to your well-being extends beyond medical consultations and procedures—we ensure that you have access to a comprehensive medicines facility that meets your pharmaceutical needs with precision and care.?</p>
+            <a href="https://www.1mg.com/?wpsrc=Google+Organic+Search" target="_blank" class="btn">learn more <span class="fas fa-chavron-right"></span></a>
+        </div>
+        <div class="box">
+            <i class="fas fa-procedures"></i>
+            <h3>Bed Facility</h3>
+            <p> We recognize the crucial role that rest plays in the healing process. Our commitment to your well-being extends to providing a comfortable and supportive environment for your recovery. Explore our bed facilities designed to ensure a restful and peaceful stay during your time with us.Common features include adjustable height, electronic buttons, and adjustable side rails.They also include additional advanced features for the well-being, comfort,of patients. </p>
+            <a href="https://en.wikipedia.org/wiki/Hospital_bed" target="_blank" class="btn">learn more <span class="fas fa-chavron-right"></span></a>
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-brain"></i>"></i>
+            <h3>Mental Care</h3>
+            <p> We recognize the significance of mental health and the profound impact it has on overall well-being. Our Mental Care Facility is dedicated to providing compassionate, evidence-based care for individuals facing mental health challenges. Discover a sanctuary where healing, understanding, and support converge.We offer a combination of services, including recreational activities,and holistic approaches to promote mental well-being. </p>
+            <a href="https://youtu.be/iTAq5T0tW0w" target = "_blank" class="btn">learn more <span class="fas fa-chavron-right"></span></a>
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-shield-dog"></i>
+            <h3>Pets Facility</h3>
+            <p> We understand that pets are cherished members of your family, and their health and well-being are of paramount importance. Our Pets Care Facility is dedicated to providing comprehensive and compassionate veterinary services to ensure the happiness and vitality of your furry companions. Our hospital can accommodate large animal practices that treat equine or farm animals in addition to domestic pets. See the function of large animal hospital rooms and the extensive services they provide.</p>
+            <a href="https://www.iaea.org/publications/8368/planning-a-clinical-pet-centre"  target ="_blank" class="btn">learn more <span class="fas fa-chavron-right"></span></a>
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-robot"></i>
+            <h3>Robotic Treatment</h3>
+            <p> We have enhanced  our hospital in robotics field too as ,In a groundbreaking medical achievement, Robotic- Assisted Breast-axillo Insufflation Thyroidectomy (RABIT) successfully treated a 7-year-old girl suffering from thyroid cancer, making her the youngest patient in India to undergo this innovative procedure,she underwent a total thyroidectomy and neck lymph node removal using the cutting-edge RABIT...</p>
+            <a href="https://www.sghshospitals.com/robotics-surgery?https://www.sghshospitals.com/&Source=Google&Medium=ppc&Campaignid=20836410862&Adgroupid=164861210828&Device=c&gclid=CjwKCAiA3JCvBhA8EiwA4kujZhFEWQdzntsVWc-2In4y10fJLR_zJxjYWXIB2LM9o_CqH0Se3UB5cBoCCBcQAvD_BwE" target="_blank" class="btn">learn more <span class="fas fa-chavron-right"></span></a>
+        </div>
+        
+    </div>
+</section>
+
+<section class="about" id="about">
+    <h1 class="heading"> <span>about us</span> </h1>
+    <div class="row">
+        <div class="image">
+            <img src="aboutus.jpeg" alt="">
+        </div>
+        <div class="content">
+            <h3>we take care of your healthy life</h3>
+            <p>Where your health and well-being are our top priorities. Established with a commitment to excellence,leading healthcare provider dedicated to delivering compassionate, comprehensive, and patient-centered care.our mission is to enhance the quality of life for our community by providing accessible, high-quality healthcare services. We strive to be your trusted partner in health, supporting you at every stage of your wellness journey.
+              Commitment to Excellence,We take pride in our unwavering commitment to excellence in healthcare. Our team of skilled and compassionate professionals, from doctors and nurses to support staff, works collaboratively to ensure that you receive the best possible care.Your health is our priority, and we believe in a patient-centered approach to care. We listen attentively, respect your unique needs, and involve you in the decision-making process. Your well-being is at the heart of everything we do. </p>
+            
+            <a href="https://en.wikipedia.org/wiki/Hospital" target="_blank" class="btn"> learn more <span class="fas fa-chevron-right"></span></a>
+        </div>
+    </div>
+</section>
+
+<section class="doctors" id="doctors">
+    <h1 class="heading"> our <span>doctors</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="doc1.jpeg" alt="">
+            <h3>Mr.Derek </h3>
+            <span>Neurologist</span> 
+            <br>
+            <span>(SPS HOSPITAL)</span> 
+            <div class="share">
+                <a  class="fab fa-facebook-f"></a>
+                <a  class="fab fa-twitter"></a>
+                <a  class="fab fa-instagram"></a>
+                <a  class="fab fa-linkedin"></a>
+
+            </div>
+        </div>
+        <div class="box">
+            <img src="doc3.jpeg" alt="">
+            <h3>Mr.Burke</h3>
+            <span>Cardiologist</span>  
+            <br>
+            <span>(AIIMS DELHI)</span>
+            <div class="share">
+                <a class="fab fa-facebook-f"></a>
+                <a  class="fab fa-twitter"></a>
+                <a  class="fab fa-instagram"></a>
+                <a  class="fab fa-linkedin"></a>
+
+            </div>
+        </div>
+        <div class="box">
+            <img src="doc4.jpeg" alt="">
+            <h3>Mrs.Calliper</h3>
+            <span>Orthopedics</span> 
+            <br>
+            <span>(SLOAN HOSPITAL)</span> 
+            <div class="share">
+                <a  class="fab fa-facebook-f"></a>
+                <a  class="fab fa-twitter"></a>
+                <a  class="fab fa-instagram"></a>
+                <a  class="fab fa-linkedin"></a>
+
+            </div>
+        </div>
+        <div class="box">
+            <img src="doc2.jpeg" alt="">
+            <h3>Mrs.Bailey</h3>
+            <span>General Surgeon</span>  
+            <br>
+            <span>(GREY HOSPITAL)</span>
+            <div class="share">
+                <a  class="fab fa-facebook-f"></a>
+                <a  class="fab fa-twitter"></a>
+                <a  class="fab fa-instagram"></a>
+                <a  class="fab fa-linkedin"></a>
+
+            </div>
+        </div>
+
+        </div>  
+    </div>
+</section>
+
+
+
+ <section class="book" id="book">
+
+    <h1 class="heading"> <span>book</span> now </h1>
+    <div class="row">
+        <div class="image">
+            <img src="book.jpeg" alt="">
+        </div>
+        <form action="">
+            <h3>book appointment</h3>
+            <input type="text" placeholder="Your Name" class="box" required>
+            <input type="number" placeholder="Your Number" class="box" required>
+            <input type="text" placeholder="Hospital Name" class="box" required>
+            <select name="department" class="box" required>
+              <option> Department To Visit</option>
+              <option>Cardiology</option>
+              <option>Neurology</option>
+              <option>Orthopedics</option>
+              <option>Dental Care</option>
+              <option>ENT</option>
+              <option>General</option>
+              <option>Physiotherapist</option>
+              <option>veterinary</option>
+              <option>Therapist</option>
+            </select>
+            <input type="date"  class="box">
+            <input type="submit" value="BOOK NOW" id="btun" class="btn">
+        </form>
+    </div>
+
+
+
+ </section>
+
+ <section class="review" id="review">
+    <h1 class="heading"> client's <span>review</span></h1>
+    <div class="box-container">
+      <div class="box">
+      <img src="client.jpeg" alt="">
+      <h3>Client</h3>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i> 
+      </div>
+      <p class="text">"I had the most incredible experience at [Hospital/Clinic Name]. The doctors and staff were not only professional and knowledgeable but also caring and compassionate. The personalized approach to my treatment made a significant impact on my health. I am grateful for the life-changing experience and the support I received throughout my journey." </p>
+      </p>
+    </div>
+    <div class="box">
+      <img src="client.jpeg" alt="">
+      <h3>Client</h3>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i> 
+      </div>
+      <p class="text">"I cannot thank the team at [Hospital/Clinic Name] enough for their compassion and empathy. The emotional support I received was just as crucial as the medical treatment. The doctors not only addressed my physical health but also took the time to understand my mental and emotional well-being. This holistic approach made a significant difference in my healing process."
+      </p>
+    </div>
+    <div class="box">
+      <img src="client.jpeg" alt="">
+      <h3>Client</h3>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i> 
+      </div>
+      <p class="text">"As a parent, finding a healthcare provider that understands the unique needs of my family was essential. [Hospital/Clinic Name] not only provided excellent medical care for my children but also ensured a family-friendly environment. The staff went above and beyond to make our visits stress-free and comfortable. I highly recommend their services to all families."
+      </p>
+    </div>
+  </div>
+  </section>
+
+  <section class="blogs" id="blogs">
+    <h1 class="heading"> our <span>blogs</span> </h1>
+    <div class="box-container">
+      <div class="box">
+        <div class="image">
+          <img src="healthy.jpeg" alt="">
+        </div>
+        <div class="content">
+          <div class="icon">
+            <a href="#"> <i class="fas fa-calendar"></i> 20th Feb,2023 </a>
+            <a href="#"> <i class="fas fa-user"></i> by admin </a>
+
+          </div>
+          <h3>Mental Health and Well-being:</h3>
+          <p>"Mindfulness Meditation: A Powerful Tool for Stress Reduction"
+            "Breaking the Stigma: Let's Talk About Mental Health"
+            "Building Resilience: Strategies for Mental WellnessPsychiatric patients traditionally have been cared for in long-stay mental health facilities, formerly called asylums or mental hospitals"
+            </p>
+          <a href="https://youtu.be/iTAq5T0tW0w" target = "_blank" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="senior.jpeg" alt="">
+        </div>
+        <div class="content">
+          <div class="icon">
+            <a href="#"> <i class="fas fa-calendar"></i> 1st may,2023 </a>
+            <a href="#"> <i class="fas fa-user"></i> by admin </a>
+
+          </div>
+          <h3>Senior Health</h3>
+          <p>"Senior Fitness: Staying Active in Your Golden Years"
+            "The Role of Nutrition in Healthy Aging older patients frequently experience nighttime confusion fracture a bone with no identifiable trauma, fall, or become unable to walk Hospitalization may precipitate or worsen undernutrition, pressure injuries, urinary incontinence, fecal impaction, and urinary retention."</p>
+          <a href="https://youtu.be/6NNMob8TRaQ" target="_blank" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img src="health.jpeg" alt="">
+        </div>
+        <div class="content">
+          <div class="icon">
+            <a href="#"> <i class="fas fa-calendar"></i> 10th Dec,2023 </a>
+            <a href="#"> <i class="fas fa-user"></i> by admin </a>
+
+          </div>
+          <h3>Healthy Living Tips</h3>
+          <p> "Balanced Nutrition: A Guide to Healthy Eating Habits Small adjustments in your daily schedule can create substantial, positive change. Simple actions like staying hydrated, dedicating a few minutes to movement, or prioritizing a hobby might sound minor, but together, they form the foundation for balanced mental fitness and physical well-being. "</p>
+          <a href="https://youtu.be/Cg_GW7yhq20" target="_blank" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3>quick links</h3>
+        <a href="#home"> <i class="fas fa-chevron-right"></i> home </a>
+        <a href="#services"> <i class="fas fa-chevron-right"></i> services</a>
+        <a href="#about"> <i class="fas fa-chevron-right"></i> about</a>
+        <a href="#doctors"> <i class="fas fa-chevron-right"></i> doctors</a>
+        <a href="#book"> <i class="fas fa-chevron-right"></i> book</a>
+        <a href="#review"> <i class="fas fa-chevron-right"></i> review</a>
+        <a href="#blogs"> <i class="fas fa-chevron-right"></i> blogs</a>
+      </div>
+      <div class="box">
+        <h3>our services</h3>
+        <a href="#"> <i class="fas fa-chevron-right"></i> dental care </a>
+        <a href="#"> <i class="fas fa-chevron-right"></i> massage therapy </a>
+        <a href="#"> <i class="fas fa-chevron-right"></i> cardiology </a>
+        <a href="#"> <i class="fas fa-chevron-right"></i> diagnosis </a>
+        <a href="#"> <i class="fas fa-chevron-right"></i> ambulance service</a>
+      </div>
+      <div class="box " id="contactinfo">
+        <h3> contact info </h3>
+        <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+        <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+        <a href="#"> <i class="fas fa-envelope"></i> rihanas@gmail.com </a>
+        <a href="#"> <i class="fas fa-envelope"></i> anasbhai@gmail.com </a>
+        <a href="#"> <i class="fas fa-map-marker-alt"></i> California, USA - 400104 </a>
+      </div>
+      <div class="box">
+        <h3>follow us</h3>
+        <a href="#"> <i class="fa-brands fa-facebook"></i> facebook </a>
+        <a href="#"> <i class="fa-brands fa-square-twitter"></i> twitter </a>
+        <a href="#"> <i class="fa-brands fa-instagram"></i> instagram </a>
+        <a href="#"> <i class="fa-brands fa-linkedin"></i> linkedin </a>
+        <a href="#"> <i class="fa-brands fa-pinterest"></i> pinterest </a>
+      </div>
+    </div>
+    <div class="credit"> created by <span>ERROR 404</span> | all rights reserved |</div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js">
+
+    </script>
+</body>
+</html>
